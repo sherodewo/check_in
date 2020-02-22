@@ -16,12 +16,12 @@
     <link href="{{ asset('themes/cargo/fonts/flaticon/font/flaticon.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('themes/cargo/css/aos.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('themes/select2/dist/css/select2.min.css') }}" rel="stylesheet" type="text/css">
-
-    <script src="{{ asset('themes/select2/dist/js/select2.css') }}path/to/select2.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="vendor/select2/dist/css/select2.min.css" rel="stylesheet" />
-    <script src="vendor/select2/dist/js/select2.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="{{ asset('themes/cargo/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('themes/css/button.css') }}">
 
 </head>
 
@@ -126,18 +126,40 @@
         <div class="ftco-cover-1 overlay" style="background-image: url('https://source.unsplash.com/pSyfecRCBQA/1920x780')">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <h1>Choose Your Quality Delivery of Your Cargo</h1>
-                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est magni perferendis fugit modi similique, suscipit, deserunt a iure.</p>
+                    <div class="col-lg-12">
+                        <h1>Find deals on hotels, homes, and much more...
+                        </h1>
+                        <p class="mb-5">From cozy country homes to funky city apartments
+                        </p>
                         <form action="#">
-                            <select class="form-control select2" name="province" data-placeholder="{!! trans('label.province') !!}" id="select_location" autofocus>
-                                <option></option>
-                                @foreach($provinces as $province)
-                                    <option value="{{ $province->id }}"{{ old('province')==$province->id ? ' selected' : '' }}>{{ $province->name }}</option>
-                                @endforeach
-                            </select>
+                            <div class="row">
+                                <select class="form-control select2 col-4" name="city" id="select_location" autofocus>
+                                    <option value="" disabled selected>Select your Destination</option>
+                                    @foreach($cities as $city)
+                                        <option value="{{ $city->id }}"{{ old('city')==$city->id ? ' selected' : '' }}>{{ $city->name }}</option>
+                                    @endforeach
+                                </select>
+                                <input class="form-control col-2" type="text" name="daterange" value="" placeholder="Check In - Check Out"/>
+
+                                <div class="dropdown col-3">
+                                    <button class="form-control  dropdown-toggle text-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-user"></i> Person <i class="fa fa-room"></i> Room
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Person <button class="pull-right" style="background: #0B61A4"><i class="fa fa-plus"></i></button></a>
+                                        <a class="dropdown-item" href="#">Room <button class="pull-right" style="background: #0B61A4"><i class="fa fa-plus"></i></button></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-2">
+                                    <button class="button success"><i class="fa fa-search"></i>
+                                         Search</button>
+                                </div>
+                            </div>
+
                         </form>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -813,12 +835,25 @@
 <script src="{{asset('themes/cargo/js/jquery.fancybox.min.js')}}"></script>
 <script src="{{asset('themes/cargo/js/jquery.easing.1.3.js')}}"></script>
 <script src="{{asset('themes/cargo/js/aos.js')}}"></script>
+<script src="{{asset('themes/js/button.js')}}"></script>
+<script src="{{ asset('themes/select2/dist/js/select2.css') }}path/to/select2.min.js"></script>
+<script src="vendor/select2/dist/js/select2.min.js"></script>
 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 <script src="{{asset('themes/cargo/js/main.js')}}"></script>
 <script>
     $(document).ready(function() {
-        $('#select_location').select2({
-            placeholder: 'Select an Option'
+        $('#select_location').select2();
+    });
+</script>
+<script>
+    $(function() {
+        $('input[name="daterange"]').daterangepicker({
+            opens: 'left'
+        }, function(start, end, label) {
+            console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
         });
     });
 </script>

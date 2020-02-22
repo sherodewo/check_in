@@ -21,6 +21,7 @@ class CreateHotelsTable extends Migration
             $table->integer('city_id')->unsigned()->nullable();
             $table->integer('province_id')->unsigned()->nullable();
             $table->integer('district_id')->unsigned()->nullable();
+            $table->double('price');
             $table->timestamps();
         });
     }
