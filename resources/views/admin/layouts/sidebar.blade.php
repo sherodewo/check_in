@@ -54,7 +54,7 @@
                 </a>
                 <ul>
                     <li>
-                        <a href="/departing">
+                        <a href="/hotel">
                             <i class="metismenu-icon">
                             </i>Hotel
                         </a>
@@ -81,6 +81,12 @@
                         <a href="/district">
                             <i class="metismenu-icon">
                             </i>Districts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/facility">
+                            <i class="metismenu-icon">
+                            </i>Facilities
                         </a>
                     </li>
                 </ul>

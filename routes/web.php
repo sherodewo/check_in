@@ -103,6 +103,17 @@ Route::group(['middleware' => 'auth'],function () {
     Route::put('roomtype/update/{id}', ['as' => 'roomtype.update', 'uses' => 'Backend\RoomTypeController@update']);
     Route::get('roomtype/delete/{id}', ['as' => 'roomtype.delete', 'uses' => 'Backend\RoomTypeController@destroy']);
     Route::resource('roomtype', 'Backend\RoomTypeController');
+
+    # FacilityController
+    Route::get('facility', ['as' => 'facility.index', 'uses' => 'Backend\FacilityController@index']);
+    Route::get('facility/datatables', ['as' => 'facility.datatables', 'uses' => 'Backend\FacilityController@dataTables']);
+    Route::get('facility/show/{id}', ['as' => 'facility.show', 'uses' => 'Backend\FacilityController@show']);
+    Route::get('facility/create', ['as' => 'facility.create', 'uses' => 'Backend\FacilityController@create']);
+    Route::post('facility/create', ['as' => 'facility.store', 'uses' => 'Backend\FacilityController@store']);
+    Route::get('facility/edit/{id}', ['as' => 'facility.edit', 'uses' => 'Backend\FacilityController@edit']);
+    Route::put('facility/update/{id}', ['as' => 'facility.update', 'uses' => 'Backend\FacilityController@update']);
+    Route::get('facility/delete/{id}', ['as' => 'facility.delete', 'uses' => 'Backend\FacilityController@destroy']);
+    Route::resource('facility', 'Backend\FacilityController');
 });
 
 // FrontEnd

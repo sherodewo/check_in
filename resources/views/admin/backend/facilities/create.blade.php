@@ -1,13 +1,13 @@
-@extends('admin.backend.roles.layout')
+@extends('admin.backend.facilities.layout')
   
 @section('content')
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="float-left">
-            <h2>Add New roles</h2>
+            <h2>Add New Facility</h2>
         </div>
         <div class="float-right">
-            <a class="btn btn-primary" href="{{ route('role.index') }}"> Back</a>
+            <a class="btn btn-primary" href="{{ route('facility.index') }}"> Back</a>
         </div>
     </div>
 </div>
@@ -22,7 +22,7 @@
     </div>
 @endif
    
-<form action="{{ route('role.store') }}" method="POST">
+<form action="{{ route('facility.store') }}" method="POST">
     @csrf
 
     <div class="row">
