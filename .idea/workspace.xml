@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aede85e-7560-4d1b-bb5a-9f3754eddde9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_15_235240_create_hotels_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_15_235240_create_hotels_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/backend/roles/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/backend/roles/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/backend/facilities/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_22_163448_create_facilities_table.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,6 +29,42 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-274">
               <caret line="67" selection-start-line="67" selection-end-line="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/frontend/home/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="146" column="194" selection-start-line="146" selection-start-column="194" selection-end-line="146" selection-end-column="194" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7567#7573#0#HTML" expanded="true" />
+                <element signature="e#7574#7580#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7765#7771#0#HTML" expanded="true" />
+                <element signature="e#7775#7781#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/themes/css/inputPerson.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/themes/js/inputPerson.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -64,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Hotel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="263">
+              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -87,24 +110,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="354">
               <caret line="54" column="9" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="54" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="107" column="58" selection-start-line="107" selection-start-column="58" selection-end-line="107" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/sidebar.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -133,6 +138,10 @@
       <find>date</find>
       <find>succ</find>
       <find>sear</find>
+      <find>button</find>
+      <find>plus</find>
+      <find>perso</find>
+      <find>person</find>
     </findStrings>
     <replaceStrings>
       <replace>Role</replace>
@@ -155,8 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/provinces/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/provinces/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/provinces/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/provinces/table.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/cities/index.blade.php" />
@@ -191,7 +198,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontController.php" />
         <option value="$PROJECT_DIR$/public/themes/js/button.js" />
         <option value="$PROJECT_DIR$/public/themes/css/button.css" />
-        <option value="$PROJECT_DIR$/resources/views/frontend/home/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/facilities/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/roles/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/facilities/edit.blade.php" />
@@ -206,6 +212,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2020_02_15_235240_create_hotels_table.php" />
         <option value="$PROJECT_DIR$/app/Models/Facility.php" />
         <option value="$PROJECT_DIR$/app/Models/Hotel.php" />
+        <option value="$PROJECT_DIR$/public/themes/js/inputPerson.js" />
+        <option value="$PROJECT_DIR$/public/themes/css/inputPerson.css" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/home/index.blade.php" />
       </list>
     </option>
   </component>
@@ -355,13 +364,27 @@
             <path>
               <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
               <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
               <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
+              <item name="check_in" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
+              <item name="check_in" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
@@ -404,6 +427,28 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
+              <item name="check_in" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
+              <item name="check_in" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
+              <item name="check_in" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -470,12 +515,12 @@
       <workItem from="1580892713996" duration="29221000" />
       <workItem from="1582021970651" duration="132000" />
       <workItem from="1582086303935" duration="3095000" />
-      <workItem from="1582334906872" duration="7486000" />
+      <workItem from="1582334906872" duration="10344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47346000" />
+    <option name="totallyTimeSpent" value="50204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -507,23 +552,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/RoleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/RoomTypeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -725,17 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/home/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="149" column="133" selection-start-line="149" selection-start-column="133" selection-end-line="149" selection-end-column="133" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#a#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#a#1;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_06_034954_create_roles_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -853,8 +870,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Hotel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="263">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/css/inputPerson.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/js/inputPerson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="146" column="194" selection-start-line="146" selection-start-column="194" selection-end-line="146" selection-end-column="194" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7567#7573#0#HTML" expanded="true" />
+            <element signature="e#7574#7580#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7765#7771#0#HTML" expanded="true" />
+            <element signature="e#7775#7781#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

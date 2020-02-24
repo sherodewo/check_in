@@ -22,6 +22,7 @@
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="{{ asset('themes/cargo/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('themes/css/button.css') }}">
+    <link rel="stylesheet" href="{{ asset('themes/css/inputPerson.css') }}">
 
 </head>
 
@@ -142,12 +143,26 @@
                                 <input class="form-control col-2" type="text" name="daterange" value="" placeholder="Check In - Check Out"/>
 
                                 <div class="dropdown col-3">
-                                    <button class="form-control  dropdown-toggle text-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fa fa-user"></i> Person <i class="fa fa-room"></i> Room
+                                    <button class="form-control  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: small">
+                                        <i class="fa fa-user pull-left" ></i> <input class="pull-left" type='text' name='quantity' value='0' style="width: 0.5rem" /><div class="pull-left">&nbsp;Person&nbsp; </div>
+                                        <i class="fa fa-room"></i> <input class="pull-left" type='text' name='quantity1' value='0' style="width: 0.5rem"/><div class="pull-left">&nbsp;Room&nbsp; </div>
                                     </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Person <button class="pull-right" style="background: #0B61A4"><i class="fa fa-plus"></i></button></a>
-                                        <a class="dropdown-item" href="#">Room <button class="pull-right" style="background: #0B61A4"><i class="fa fa-plus"></i></button></a>
+                                    <div class="dropdown-menu" aria-labelledby="">
+                                        <a class="">Person
+                                            <div class="quantity text-center">
+                                                <input type='button' value='-' class='minus' field='quantity' />
+                                                <input type='text' name='quantity' value='0' class='qty' id="person" />
+                                                <input type='button' value='+' class='plus' field='quantity' />
+                                            </div>
+                                        </a>
+                                        <a class="" >Room
+                                            <div class="quantity text-center">
+                                                <input type='button' value='-' class='minusRoom' field='quantity1' />
+                                                <input type='text' name='quantity1' value='0' class='qty' id="room"/>
+                                                <input type='button' value='+' class='plusRoom' field='quantity1' />
+                                            </div>
+                                        </a>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -836,6 +851,7 @@
 <script src="{{asset('themes/cargo/js/jquery.easing.1.3.js')}}"></script>
 <script src="{{asset('themes/cargo/js/aos.js')}}"></script>
 <script src="{{asset('themes/js/button.js')}}"></script>
+<script src="{{asset('themes/js/inputPerson.js')}}"></script>
 <script src="{{ asset('themes/select2/dist/js/select2.css') }}path/to/select2.min.js"></script>
 <script src="vendor/select2/dist/js/select2.min.js"></script>
 
