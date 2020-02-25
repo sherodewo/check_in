@@ -18,6 +18,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/registeruser',['as' => 'register.user', 'uses' => 'Backend\RegisterController@register']);
 
 Auth::routes();
 

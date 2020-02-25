@@ -28,12 +28,14 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $cities = $this->cityModel->all();
 
-        if (Auth::user()->user_role->role->name == "super_admin"){
-            return view('admin.layouts.app');
-        }else{
-            $cities = $this->cityModel->all();
+        if (Auth::user()->user_role->role_id == 3){
             return view('frontend.home.index',compact('cities'));
+
+        }else{
+            return view('admin.layouts.app');
+
         }
 
     }
