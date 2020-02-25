@@ -18,3 +18,18 @@
     width : 100px;
     height : 100px;
 }
+
+.select2-container .select2-selection--single{
+    height: 55px; !important;
+}
+.select2-container--default .select2-results>.select2-results__options{
+    max-height: 500px !important;
+}
+.wrap.select2-selection--single {
+    height: 100%;
+}
+.select2-container .wrap.select2-selection--single .select2-selection__rendered {
+    word-wrap: break-word;
+    text-overflow: inherit;
+    white-space: normal;
+}

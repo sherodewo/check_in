@@ -169,3 +169,7 @@ small {
         background-color: #f44336;
     }
 }
+
+.dropdown-aing.dropdown-menu.show{
+    min-width: 13rem;
+}

@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="{{ asset('themes/cargo/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('themes/css/button.css') }}">
     <link rel="stylesheet" href="{{ asset('themes/css/inputPerson.css') }}">
+    <link rel="stylesheet" href="{{ asset('themes/css/select2.css') }}">
+{{--    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet"/>--}}
 
 </head>
 
@@ -125,8 +127,8 @@
 
     <div class="ftco-blocks-cover-1">
         <div class="ftco-cover-1 overlay" style="background-image: url('https://source.unsplash.com/pSyfecRCBQA/1920x780')">
-            <div class="container">
-                <div class="row align-items-center">
+            <div class="container-fluid">
+                <div class=" align-items-center">
                     <div class="col-lg-12">
                         <h1>Find deals on hotels, homes, and much more...
                         </h1>
@@ -134,20 +136,21 @@
                         </p>
                         <form action="#">
                             <div class="row">
-                                <select class="form-control select2 col-4" name="city" id="select_location" autofocus>
-                                    <option value="" disabled selected>Select your Destination</option>
+                                <select class="select2_extend_height wrap form-control select2 col-4" name="city" id="select_location" autofocus>
+                                    <option value="" ></option>
                                     @foreach($cities as $city)
                                         <option value="{{ $city->id }}"{{ old('city')==$city->id ? ' selected' : '' }}>{{ $city->name }}</option>
                                     @endforeach
                                 </select>
-                                <input class="form-control col-2" type="text" name="daterange" value="" placeholder="Check In - Check Out"/>
 
-                                <div class="dropdown col-3">
+                                <input class="form-control col-3" type="text" name="daterange" value="" placeholder="Check In - Check Out"/>
+
+                                <div class="dropdown col-3" style="width: 100%">
                                     <button class="form-control  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: small">
-                                        <i class="fa fa-user pull-left" ></i> <input class="pull-left" type='text' name='quantity' value='0' style="width: 0.5rem" /><div class="pull-left">&nbsp;Person&nbsp; </div>
-                                        <i class="fa fa-room"></i> <input class="pull-left" type='text' name='quantity1' value='0' style="width: 0.5rem"/><div class="pull-left">&nbsp;Room&nbsp; </div>
+                                        <i class="fa fa-user pull-left" ></i> <input class="pull-left" type='text' name='quantity' value='0' style="width: 1rem" /><div class="pull-left">&nbsp;Person&nbsp; </div>
+                                        <i class="fa fa-room"></i> <input class="pull-left" type='text' name='quantity1' value='0' style="width: 1rem"/><div class="pull-left">&nbsp;Room&nbsp; </div>
                                     </button>
-                                    <div class="dropdown-menu" aria-labelledby="">
+                                    <div class="dropdown-menu dropdown-aing" aria-labelledby="">
                                         <a class="">Person
                                             <div class="quantity text-center">
                                                 <input type='button' value='-' class='minus' field='quantity' />
@@ -166,7 +169,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-2">
+                                <div class="col">
                                     <button class="button success"><i class="fa fa-search"></i>
                                          Search</button>
                                 </div>
@@ -852,18 +855,14 @@
 <script src="{{asset('themes/cargo/js/aos.js')}}"></script>
 <script src="{{asset('themes/js/button.js')}}"></script>
 <script src="{{asset('themes/js/inputPerson.js')}}"></script>
-<script src="{{ asset('themes/select2/dist/js/select2.css') }}path/to/select2.min.js"></script>
-<script src="vendor/select2/dist/js/select2.min.js"></script>
+<script src="{{ asset('themes/select2/dist/js/select2.min.css') }}"></script>
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 <script src="{{asset('themes/cargo/js/main.js')}}"></script>
-<script>
-    $(document).ready(function() {
-        $('#select_location').select2();
-    });
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
 <script>
     $(function() {
         $('input[name="daterange"]').daterangepicker({

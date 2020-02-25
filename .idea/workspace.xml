@@ -2,6 +2,713 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aede85e-7560-4d1b-bb5a-9f3754eddde9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/lagiBosen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lagiBosen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_14_040639_create_provinces_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_14_040639_create_provinces_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_14_040703_create_cities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_14_040703_create_cities_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_14_040736_create_districts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_14_040736_create_districts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/cargo/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/cargo/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/css/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/css/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/js/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/themes/js/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.github/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.github/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.github/workflows/docs-deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.github/workflows/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.github/workflows/package-deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.jshintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/css/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/css/select2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/dsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/hsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/ps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/select2.full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/select2.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/dist/js/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/accounts/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/assets/rtfm-screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/blueprints.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/config/plugins/anchors.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/config/plugins/highlight.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/config/plugins/simplesearch.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/config/site.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/config/system.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/data/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/localhost/config/security.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/localhost/config/system.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/01.getting-started/01.installation/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/01.getting-started/02.basic-usage/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/01.getting-started/03.builds-and-modules/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/01.getting-started/chapter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/02.troubleshooting/01.getting-help/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/02.troubleshooting/02.common-problems/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/02.troubleshooting/chapter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/03.configuration/01.options-api/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/03.configuration/02.defaults/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/03.configuration/03.data-attributes/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/03.configuration/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/04.appearance/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/05.options/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/06.data-sources/01.formats/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/06.data-sources/02.ajax/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/06.data-sources/03.arrays/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/06.data-sources/chapter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/07.dropdown/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/08.selections/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/09.tagging/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/10.placeholders/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/11.searching/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/12.programmatic-control/01.add-select-clear-items/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/12.programmatic-control/02.retrieving-selections/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/12.programmatic-control/03.methods/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/12.programmatic-control/04.events/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/12.programmatic-control/chapter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/13.i18n/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/14.advanced/01.adapters-and-decorators/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/14.advanced/02.default-adapters/01.selection/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/14.advanced/02.default-adapters/02.array/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/14.advanced/02.default-adapters/03.ajax/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/14.advanced/02.default-adapters/04.data/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/14.advanced/02.default-adapters/05.results/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/14.advanced/02.default-adapters/06.dropdown/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/14.advanced/02.default-adapters/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/14.advanced/chapter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/15.upgrading/01.new-in-40/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/15.upgrading/02.migrating-from-35/docs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/15.upgrading/chapter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/al.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/az.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/co.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ct.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/de.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/fl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/hi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/id.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/il.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/la.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/md.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/me.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/mi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/mn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/mo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ms.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/mt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/nc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/nd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/nh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/nj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/nm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/nv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ny.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/oh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/or.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/pa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/sc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/sd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/tn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/tx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/ut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/va.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/vt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/wa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/wi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/wv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/flags/wy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/pages/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/anchors/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/anchors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/anchors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/anchors/anchors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/anchors/anchors.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/anchors/blueprints.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/anchors/js/anchor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/breadcrumbs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/breadcrumbs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/breadcrumbs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/breadcrumbs/assets/readme_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/breadcrumbs/blueprints.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/breadcrumbs/breadcrumbs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/breadcrumbs/breadcrumbs.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/breadcrumbs/classes/breadcrumbs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/breadcrumbs/css/breadcrumbs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/breadcrumbs/templates/partials/breadcrumbs.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/assets/readme_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/blueprints.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/cli/LogCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/error.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/languages.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/pages/error.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/templates/error.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/error/templates/error.json.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/assets/readme_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/blueprints.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/agate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/androidstudio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/arduino-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/arta.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/ascetic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-cave.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-cave.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-dune.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-dune.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-estuary.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-estuary.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-forest.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-forest.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-heath.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-heath.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-lakeside.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-lakeside.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-plateau.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-plateau.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-savanna.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-savanna.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-seaside.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-seaside.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-sulphurpool.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/atelier-sulphurpool.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/brown-paper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/codepen-embed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/color-brewer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/darkula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/docco.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/far.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/github-gist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/github.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/googlecode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/grayscale.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/hopscotch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/hybrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/idea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/ir-black.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/kimbie.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/kimbie.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/learn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/magula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/mono-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/monokai-sublime.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/monokai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/obsidian.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/paraiso-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/paraiso-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/paraiso.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/paraiso.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/pojoaque.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/railscasts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/rainbow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/school-book.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/solarized-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/solarized-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/sunburst.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/tomorrow-night-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/tomorrow-night-bright.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/tomorrow-night-eighties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/tomorrow-night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/tomorrow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/vs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/xcode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/css/zenburn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/highlight.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/highlight.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/js/highlight.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/highlight/js/highlightjs-line-numbers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/problems/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/problems/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/problems/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/problems/assets/readme_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/problems/blueprints.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/problems/css/problems.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/problems/css/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/problems/html/problems.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/problems/problems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/problems/problems.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/assets/readme_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/assets/search.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/blueprints.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/css/simplesearch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/js/simplesearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/languages.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/pages/simplesearch.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/simplesearch.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/simplesearch.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/templates/partials/simplesearch_base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/templates/partials/simplesearch_item.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/templates/partials/simplesearch_searchbox.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/templates/simplesearch_results.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/plugins/simplesearch/templates/simplesearch_results.json.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/blueprints.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/blueprints/chapter.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/blueprints/docs.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/css-compiled/nucleus.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/css-compiled/nucleus.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/css-compiled/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/css-compiled/theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/css/featherlight.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/css/nucleus-ie10.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/css/nucleus-ie9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/css/pure-0.5.0/grids-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/images/clippy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/js/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/js/featherlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/js/html5shiv-printshiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/js/jquery.scrollbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/js/learn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/js/modernizr.custom.71422.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/languages.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/learn2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/learn2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/configuration/nucleus/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/configuration/nucleus/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/configuration/nucleus/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/configuration/nucleus/_layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/configuration/nucleus/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/configuration/nucleus/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/configuration/theme/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/configuration/theme/_bullets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/configuration/theme/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/functions/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/functions/_direction.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/functions/_range.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/mixins/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/mixins/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/particles/_align-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/nucleus/particles/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_bullets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_configuration.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_tooltips.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/modules/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/theme/modules/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/_bourbon-deprecated-upcoming.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/_bourbon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_directional-values.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_ellipsis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_font-family.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_html5-input-types.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_prefixer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_rem.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_retina-image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_timing-functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_triangle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/addons/_word-wrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_animation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_appearance.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_backface-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_background-image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_border-image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_box-sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_calc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_columns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_flex-box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_font-face.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_font-feature-settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_hidpi-media-query.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_hyphens.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_image-rendering.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_keyframes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_linear-gradient.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_perspective.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_placeholder.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_radial-gradient.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_transform.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/css3/_user-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_assign.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_color-lightness.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_flex-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_golden-ratio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_grid-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_modular-scale.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_px-to-em.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_px-to-rem.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_strip-units.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_tint-shade.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_transition-property-name.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/functions/_unpack.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_convert-units.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_gradient-positions-parser.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_is-num.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_linear-angle-parser.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_linear-gradient-parser.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_linear-positions-parser.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_linear-side-corner-parser.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_radial-arg-parser.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_radial-gradient-parser.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_radial-positions-parser.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_render-gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_shape-size-stripper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/helpers/_str-to-num.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/settings/_prefixer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/bourbon/settings/_px-to-em.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/_color-schemer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_cmyk.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_color-adjustments.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_color-schemer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_colorblind.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_comparison.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_equalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_harmonize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_interpolation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_mix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_ryb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/scss/vendor/color-schemer/color-schemer/_tint-shade.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/chapter.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/default.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/docs.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/error.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/partials/analytics.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/partials/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/partials/github_link.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/partials/github_note.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/partials/logo.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/partials/metadata.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/partials/page.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/templates/partials/sidebar.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/learn2/thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/css/s2-docs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/android-chrome-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/android-chrome-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/android-chrome-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/apple-touch-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/images/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/js/data-fill-from.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/site.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/templates/partials/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/templates/partials/js/source-states.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/templates/partials/logo.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/docs/themes/site/templates/partials/sidebar.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/banner.end.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/banner.start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/jquery.mousewheel.shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/jquery.select2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/jquery.shim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/compat/containerCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/compat/dropdownCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/compat/initSelection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/compat/inputData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/compat/matcher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/compat/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/compat/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/data/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/data/array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/data/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/data/maximumInputLength.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/data/maximumSelectionLength.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/data/minimumInputLength.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/data/select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/data/tags.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/data/tokenizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/diacritics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/dropdown/attachBody.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/dropdown/attachContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/dropdown/closeOnSelect.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/dropdown/hidePlaceholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/dropdown/infiniteScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/dropdown/minimumResultsForSearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/dropdown/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/dropdown/selectOnClose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/dropdown/stopPropagation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/dsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/hsb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/ne.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/ps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/sr-Cyrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/i18n/zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/results.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/selection/allowClear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/selection/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/selection/clickMask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/selection/eventRelay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/selection/multiple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/selection/placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/selection/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/selection/single.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/selection/stopPropagation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/translation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/select2/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/wrapper.end.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/js/wrapper.start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/_multiple.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/_single.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/theme/classic/_defaults.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/theme/classic/_multiple.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/theme/classic/_single.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/theme/classic/layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/theme/default/_multiple.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/theme/default/_single.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/src/scss/theme/default/layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/a11y/selection-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/data/array-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/data/base-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/data/inputData-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/data/maximumInputLength-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/data/maximumSelectionLength-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/data/minimumInputLength-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/data/select-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/data/tags-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/data/tokenizer-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/dropdown/dropdownCss-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/dropdown/dropdownParent-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/dropdown/positioning-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/dropdown/search-a11y-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/dropdown/selectOnClose-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/dropdown/stopPropagation-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/integration-jq1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/integration-jq2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/integration-jq3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/integration/dom-changes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/integration/jquery-calls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/integration/select2-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/options/ajax-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/options/data-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/options/deprecated-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/options/translation-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/options/width-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/results/a11y-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/results/focusing-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/results/infiniteScroll-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/results/option-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/allowClear-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/containerCss-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/focusing-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/multiple-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/openOnKeyDown-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/placeholder-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/search-a11y-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/search-placeholder-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/search-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/single-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/selection/stopPropagation-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/unit-jq1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/unit-jq2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/unit-jq3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/utils/data-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/utils/decorator-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/utils/escapeMarkup-tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/vendor/jquery-1.7.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/vendor/jquery-2.2.4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/vendor/jquery-3.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/vendor/qunit-1.23.1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/themes/select2/tests/vendor/qunit-1.23.1.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/home/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/home/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,29 +723,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_22_163448_create_facilities_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/FacilityController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-274">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/home/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="146" column="194" selection-start-line="146" selection-start-column="194" selection-end-line="146" selection-end-column="194" />
+            <state relative-caret-position="135">
+              <caret line="152" column="96" lean-forward="true" selection-start-line="152" selection-start-column="96" selection-end-line="152" selection-end-column="96" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#7567#7573#0#HTML" expanded="true" />
@@ -52,64 +742,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/css/inputPerson.css">
+        <entry file="file://$PROJECT_DIR$/.env.example">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/themes/js/inputPerson.js">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_14_040639_create_provinces_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_15_235240_create_hotels_table.php">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_14_040703_create_cities_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="315">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Facility.php">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_14_040736_create_districts_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="11" />
+            <state relative-caret-position="225">
+              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Hotel.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
-              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Role.php">
+        <entry file="file://$PROJECT_DIR$/public/themes/cargo/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="-13282">
+              <caret line="489" column="27" selection-start-line="489" selection-start-column="27" selection-end-line="489" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+        <entry file="file://$PROJECT_DIR$/public/themes/css/select2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="54" column="9" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="153">
+              <caret line="143" column="14" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/themes/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/themes/css/button.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="173" column="17" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -118,7 +826,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>app</find>
       <find>app\user</find>
       <find>rolle</find>
       <find>role</find>
@@ -142,6 +849,13 @@
       <find>plus</find>
       <find>perso</find>
       <find>person</find>
+      <find>sele</find>
+      <find>select</find>
+      <find>.select2-container .select2-selection--single</find>
+      <find>.select2-container--default .select2-selection--single</find>
+      <find>.select2-container--default .select2-selection--single .select2-selection__arrow</find>
+      <find>margin-left: 10</find>
+      <find>style.css</find>
     </findStrings>
     <replaceStrings>
       <replace>Role</replace>
@@ -164,18 +878,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/provinces/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/provinces/table.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/cities/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/ProvinceController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/cities/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/cities/layout.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/cities/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/cities/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/districts/layout.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2020_02_14_040736_create_districts_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/districts/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/backend/districts/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/districts/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Province.php" />
         <option value="$PROJECT_DIR$/app/Models/RoomType.php" />
@@ -188,16 +890,12 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_15_012840_create_room_types_table.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/roomtypes/table.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/CityController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/cities/table.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/District.php" />
         <option value="$PROJECT_DIR$/app/Models/City.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/DistrictController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/districts/table.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontController.php" />
-        <option value="$PROJECT_DIR$/public/themes/js/button.js" />
-        <option value="$PROJECT_DIR$/public/themes/css/button.css" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/facilities/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/roles/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/backend/facilities/edit.blade.php" />
@@ -214,7 +912,23 @@
         <option value="$PROJECT_DIR$/app/Models/Hotel.php" />
         <option value="$PROJECT_DIR$/public/themes/js/inputPerson.js" />
         <option value="$PROJECT_DIR$/public/themes/css/inputPerson.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/CityController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Clients/ProvinceClient.php" />
+        <option value="$PROJECT_DIR$/app/Http/Client/ProvinceClient.php" />
+        <option value="$PROJECT_DIR$/app/Http/Client/CityClient.php" />
+        <option value="$PROJECT_DIR$/public/themes/select2/dist/css/select2.css" />
+        <option value="$PROJECT_DIR$/public/themes/js/button.js" />
+        <option value="$PROJECT_DIR$/public/themes/css/select2.css" />
+        <option value="$PROJECT_DIR$/public/themes/cargo/css/style.css" />
+        <option value="$PROJECT_DIR$/public/themes/css/custom.css" />
+        <option value="$PROJECT_DIR$/public/themes/css/button.css" />
         <option value="$PROJECT_DIR$/resources/views/frontend/home/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_14_040639_create_provinces_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_14_040736_create_districts_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_14_040703_create_cities_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontController.php" />
       </list>
     </option>
   </component>
@@ -259,7 +973,6 @@
       <path value="$PROJECT_DIR$/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/vendor/league/commonmark-ext-table" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
@@ -309,6 +1022,11 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -345,6 +1063,13 @@
               <item name="check_in" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
+              <item name="check_in" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -353,108 +1078,23 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Backend" type="462c0819:PsiDirectoryNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
               <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
               <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
               <item name="check_in" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="facilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="check_in" type="b2602c69:ProjectViewProjectNode" />
-              <item name="check_in" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -465,22 +1105,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/themes/css" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Frontend" />
       <recent name="$PROJECT_DIR$/app/Models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/admin/backend" />
-      <recent name="$PROJECT_DIR$/app/Http/Controllers/Backend" />
-      <recent name="$PROJECT_DIR$/app/Models" />
+      <recent name="$PROJECT_DIR$/public/themes/css" />
+      <recent name="$PROJECT_DIR$/public/themes/select2/dist/js" />
+      <recent name="$PROJECT_DIR$/public/themes/select2/dist" />
+      <recent name="$PROJECT_DIR$/public/themes/select2" />
       <recent name="$PROJECT_DIR$/public/themes" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -515,12 +1156,12 @@
       <workItem from="1580892713996" duration="29221000" />
       <workItem from="1582021970651" duration="132000" />
       <workItem from="1582086303935" duration="3095000" />
-      <workItem from="1582334906872" duration="10344000" />
+      <workItem from="1582334906872" duration="21383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50204000" />
+    <option name="totallyTimeSpent" value="61243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -552,114 +1193,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_14_040736_create_districts_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="67" selection-start-line="18" selection-start-column="12" selection-end-line="19" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/facade/ignition/resources/views/errorPage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/backend/roomtypes/table.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/City.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/backend/cities/table.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="7" selection-start-line="17" selection-start-column="4" selection-end-line="38" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/District.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_15_012840_create_room_types_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="19" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/backend/roomtypes/scripts.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/backend/districts/table.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/cargo/js/aos.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/cargo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="38" selection-end-line="817" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/themes/select2/src/js/select2/data/ajax.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/CityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/ProvinceController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#48#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/backend/cities/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -705,16 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/select2/src/js/jquery.select2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -722,34 +1247,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#49#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="360" column="16" selection-start-line="360" selection-start-column="16" selection-end-line="360" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/js/button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/themes/css/button.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -871,7 +1372,7 @@
     <entry file="file://$PROJECT_DIR$/app/Models/Hotel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
-          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -889,11 +1390,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/ProvinceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Client/CityClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="89" selection-start-line="11" selection-start-column="89" selection-end-line="11" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Client/ProvinceClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/select2/dist/js/select2.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/select2/dist/css/select2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1123">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/CityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/js/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/css/select2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="143" column="14" selection-start-line="143" selection-start-column="14" selection-end-line="143" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/arch/architectui-html-free/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/cargo/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13282">
+          <caret line="489" column="27" selection-start-line="489" selection-start-column="27" selection-end-line="489" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/themes/css/button.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="173" column="17" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/home/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="146" column="194" selection-start-line="146" selection-start-column="194" selection-end-line="146" selection-end-column="194" />
+        <state relative-caret-position="135">
+          <caret line="152" column="96" lean-forward="true" selection-start-line="152" selection-start-column="96" selection-end-line="152" selection-end-column="96" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#7567#7573#0#HTML" expanded="true" />
@@ -902,6 +1514,41 @@
             <element signature="e#7765#7771#0#HTML" expanded="true" />
             <element signature="e#7775#7781#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_14_040639_create_provinces_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_14_040736_create_districts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_14_040703_create_cities_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Frontend/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>

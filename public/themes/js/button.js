@@ -17,3 +17,13 @@ var classname = document.getElementsByClassName("button");
 for (var i = 0; i < classname.length; i++) {
     classname[i].addEventListener('click', animateButton, false);
 }
+
+$(document).ready(function() {
+    $('.select2').select2({
+        placeholder:'Select Your Destination',
+        allowClear: true
+
+    });
+});
+
+$('.select2_extend_height').select2({containerCssClass: "wrap"});
