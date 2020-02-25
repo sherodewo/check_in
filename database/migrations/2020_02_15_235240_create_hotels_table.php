@@ -19,11 +19,10 @@ class CreateHotelsTable extends Migration
             $table->string('description');
             $table->bigInteger('room_type_id');
             $table->integer('city_id')->unsigned()->nullable();
-            $table->integer('province_id')->unsigned()->nullable();
-            $table->integer('district_id')->unsigned()->nullable();
             $table->integer('facility_id')->unsigned()->nullable();
             $table->integer('number_of_rooms');
             $table->double('price');
+            $table->boolean('status');
             $table->timestamps();
         });
     }
