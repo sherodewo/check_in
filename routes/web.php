@@ -118,4 +118,9 @@ Route::group(['middleware' => 'auth'],function () {
 
 // FrontEnd
 Route::resource('frontend', 'Frontend\FrontController');
+Route::get('login_user',  'Frontend\FrontController@login');
+Route::get('register_user',  'Frontend\FrontController@register');
 
+//Login Socialite
+Route::get('auth/{provider}', 'Auth\AuthController@redirectToProvider');
+Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallback');

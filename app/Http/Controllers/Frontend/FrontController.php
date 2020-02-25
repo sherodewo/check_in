@@ -15,7 +15,6 @@ class FrontController extends Controller
     public function __construct(ProvinceClient $provinceClient,
                                 CityClient $cityClient)
     {
-        $this->cityModel = new City();
         $this->provinceClient = $provinceClient;
         $this->cityClient = $cityClient;
     }
@@ -24,9 +23,16 @@ class FrontController extends Controller
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index(){
-        $cities = $this->cityModel->all();
-        return view('frontend.home.index',compact('cities','response'));
 
     }
+
+    public function login(){
+        return view('frontend.home.login');
+    }
+
+    public function register(){
+        return view('frontend.home.register');
+    }
+
 
 }

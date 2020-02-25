@@ -22,6 +22,8 @@ class CreateHotelsTable extends Migration
             $table->integer('facility_id')->unsigned()->nullable();
             $table->integer('number_of_rooms');
             $table->double('price');
+            $table->text('image');
+            $table->integer('hotel_owner_id');
             $table->boolean('status');
             $table->timestamps();
         });
