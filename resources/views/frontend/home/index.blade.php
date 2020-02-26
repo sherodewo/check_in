@@ -151,14 +151,14 @@
                                         <i class="fa fa-room"></i> <input class="pull-left" type='text' name='quantity1' value='0' style="width: 1rem"/><div class="pull-left">&nbsp;Room&nbsp; </div>
                                     </button>
                                     <div class="dropdown-menu dropdown-aing" aria-labelledby="">
-                                        <a class="">Person
+                                        <a class="ml-1">Person
                                             <div class="quantity text-center">
                                                 <input type='button' value='-' class='minus' field='quantity' />
                                                 <input type='text' name='quantity' value='0' class='qty' id="person" />
                                                 <input type='button' value='+' class='plus' field='quantity' />
                                             </div>
                                         </a>
-                                        <a class="" >Room
+                                        <a class="ml-1" >Room
                                             <div class="quantity text-center">
                                                 <input type='button' value='-' class='minusRoom' field='quantity1' />
                                                 <input type='text' name='quantity1' value='0' class='qty' id="room"/>
