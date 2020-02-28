@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Cargo &mdash; Website Template by Colorlib</title>
+    <title>Check.in</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -126,14 +126,13 @@
     </header>
 
     <div class="ftco-blocks-cover-1">
-        <div class="ftco-cover-1 overlay" style="background-image: url('https://source.unsplash.com/pSyfecRCBQA/1920x780')">
+        <div class="ftco-cover-1 overlay" style="background-image: url('https://www.audiosushi.com/wp-content/uploads/2017/01/poolbar.jpg')">
             <div class="container-fluid">
                 <div class=" align-items-center">
                     <div class="col-lg-12">
                         <h1>Find deals on hotels, homes, and much more...
                         </h1>
-                        <p class="mb-5">From cozy country homes to funky city apartments
-                        </p>
+                        <p class="mb-3">From cozy country homes to funky city apartments</p>
                         <form action="#">
                             <div class="row">
                                 <select class="select2_extend_height wrap form-control select2 col-4" name="city" id="select_location" autofocus>
@@ -302,7 +301,7 @@
                     <figure class="block-img-video-1" data-aos="fade">
                         <a href="https://vimeo.com/45830194" data-fancybox data-ratio="2">
                             <span class="icon"><span class="icon-play"></span></span>
-                            <img src="images/cargo_delivery_big.jpg" alt="Image" class="img-fluid">
+                            <img src="{{asset('themes/cargo/images/cargo_delivery_big.jpg')}}" alt="Image" class="img-fluid">
                         </a>
                     </figure>
                 </div>
@@ -354,7 +353,7 @@
             <div class="owl-carousel owl-all">
                 <div class="block-team-member-1 text-center rounded h-100">
                     <figure>
-                        <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
+                        <img src="{{asset('themes/cargo/images/person_1.jpg')}}" alt="Image" class="img-fluid rounded-circle">
                     </figure>
                     <h3 class="font-size-20 text-black">Max Carlson</h3>
                     <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Co-Founder</span>
@@ -368,7 +367,7 @@
 
                 <div class="block-team-member-1 text-center rounded h-100">
                     <figure>
-                        <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle">
+                        <img src="{{asset('themes/cargo/images/person_2.jpg')}}" alt="Image" class="img-fluid rounded-circle">
                     </figure>
                     <h3 class="font-size-20 text-black">Charlotte Pilat</h3>
                     <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Co-Founder</span>
@@ -382,7 +381,7 @@
 
                 <div class="block-team-member-1 text-center rounded h-100">
                     <figure>
-                        <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle">
+                        <img src="{{asset('themes/cargo/images/person_3.jpg')}}" alt="Image" class="img-fluid rounded-circle">
                     </figure>
                     <h3 class="font-size-20 text-black">Nicole Lewis</h3>
                     <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Co-Founder</span>
@@ -396,7 +395,7 @@
 
                 <div class="block-team-member-1 text-center rounded h-100">
                     <figure>
-                        <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle">
+                        <img src="{{asset('themes/cargo/images/person_2.jpg')}}" alt="Image" class="img-fluid rounded-circle">
                     </figure>
                     <h3 class="font-size-20 text-black">Jean Smith</h3>
                     <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Financial Manager</span>
@@ -410,7 +409,7 @@
 
                 <div class="block-team-member-1 text-center rounded h-100">
                     <figure>
-                        <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle">
+                        <img src="{{asset('themes/cargo/images/person_1.jpg')}}" alt="Image" class="img-fluid rounded-circle">
                     </figure>
                     <h3 class="font-size-20 text-black">Bob Carry</h3>
                     <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Loader Manager</span>
@@ -424,7 +423,7 @@
 
                 <div class="block-team-member-1 text-center rounded h-100">
                     <figure>
-                        <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle">
+                        <img src="{{asset('themes/cargo/images/person_2.jpg')}}" alt="Image" class="img-fluid rounded-circle">
                     </figure>
                     <h3 class="font-size-20 text-black">Anne Fisher</h3>
                     <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Package Manager</span>
@@ -582,7 +581,7 @@
         <div class="container">
             <div class="row d-flex no-gutters align-items-stretch">
 
-                <div class="col-12 col-lg-6 block__73422 order-lg-2" style="background-image: url('images/cargo_sea_small.jpg');" data-aos="fade-left" data-aos-delay="">
+                <div class="col-12 col-lg-6 block__73422 order-lg-2" style="background-image: url('{{asset('themes/cargo/images/cargo_sea_small.jpg')}}');" data-aos="fade-left" data-aos-delay="">
                 </div>
 
 
@@ -626,7 +625,7 @@
                         </blockquote>
 
                         <figure>
-                            <img src="images/person_4.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+                            <img src="{{asset('themes/cargo/images/person_4.jpg')}}" alt="Image" class="img-fluid rounded-circle mx-auto">
                         </figure>
                         <h3 class="font-size-20 text-black">Ricky Fisher</h3>
                     </div>
@@ -638,7 +637,7 @@
                             <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
                         </blockquote>
                         <figure>
-                            <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+                            <img src="{{asset('themes/cargo/images/person_2.jpg')}}" alt="Image" class="img-fluid rounded-circle mx-auto">
                         </figure>
                         <h3 class="font-size-20 mb-4 text-black">Ken Davis</h3>
 
@@ -654,7 +653,7 @@
                         </blockquote>
 
                         <figure>
-                            <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+                            <img src="{{asset('themes/cargo/images/person_1.jpg')}}" alt="Image" class="img-fluid rounded-circle mx-auto">
                         </figure>
                         <h3 class="font-size-20 text-black">Mellisa Griffin</h3>
 
@@ -669,7 +668,7 @@
                         </blockquote>
 
                         <figure>
-                            <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+                            <img src="{{asset('themes/cargo/images/person_3.jpg')}}" alt="Image" class="img-fluid rounded-circle mx-auto">
                         </figure>
                         <h3 class="font-size-20 mb-4 text-black">Robert Steward</h3>
 
@@ -694,7 +693,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="mb-5 d-flex blog-entry" data-aos="fade-right" data-aos-delay="">
-                        <a href="#" class="blog-thumbnail"><img src="images/cargo_sea_small.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="#" class="blog-thumbnail"><img src="{{asset('themes/cargo/images/cargo_sea_small.jpg')}}" alt="Image" class="img-fluid"></a>
                         <div class="blog-excerpt">
                             <span class="d-block text-muted">Apr 19, 2019</span>
                             <h2 class="h4  mb-3"><a href="single.html">Knowing the Difference Is Key to Effective Logistics</a></h2>
@@ -706,7 +705,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="mb-5 d-flex blog-entry" data-aos="fade-right" data-aos-delay="">
-                        <a href="#" class="blog-thumbnail"><img src="images/cargo_air_small.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="#" class="blog-thumbnail"><img src="{{asset('themes/cargo/images/cargo_air_small.jpg')}}" alt="Image" class="img-fluid"></a>
                         <div class="blog-excerpt">
                             <span class="d-block text-muted">Apr 19, 2019</span>
                             <h2 class="h4  mb-3"><a href="single.html">Knowing the Difference Is Key to Effective Logistics</a></h2>

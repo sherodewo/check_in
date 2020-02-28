@@ -20,6 +20,7 @@ class CreateHotelsTable extends Migration
             $table->bigInteger('room_type_id');
             $table->integer('city_id')->unsigned()->nullable();
             $table->integer('facility_id')->unsigned()->nullable();
+            $table->integer('hotel_stars');
             $table->integer('number_of_rooms');
             $table->double('price');
             $table->text('image');
