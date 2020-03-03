@@ -34,7 +34,7 @@ class HomeController extends Controller
             return view('frontend.home.index',compact('cities'));
 
         }else{
-            return view('admin.layouts.app');
+            return view('admin.backend.dashboard.index');
 
         }
 

@@ -23,7 +23,7 @@ Route::post('/registeruser',['as' => 'register.user', 'uses' => 'Backend\Registe
 Auth::routes();
 
 
-Route::group(['middleware' => 'auth'],function () {
+Route::middleware(['auth'])->group(function () {
     Route::get('/home', 'HomeController@index')->name('home');
 
 

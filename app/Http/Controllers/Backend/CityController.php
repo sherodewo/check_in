@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use App\Models\City;
 use App\Models\Province;
+use Auth;
 use Illuminate\Http\Request;
 use Yajra\DataTables\Facades\DataTables;
 

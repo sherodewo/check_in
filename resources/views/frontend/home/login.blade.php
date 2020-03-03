@@ -32,6 +32,8 @@
                         <div class="form-group">
                             <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
                             <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+
                         </div>
                         <div class="form-group">
                             <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
@@ -43,6 +45,11 @@
                                     </span>
                             @enderror
                         </div>
+                        @error('email')
+                        <span class="invalid-feedback" role="alert" style="color: red">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                        @enderror
                         <div class="form-group">
                             <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
                             <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
@@ -51,6 +58,11 @@
                             <input type="submit" name="signin" id="signin" class="form-submit" value="{{ __('Login') }}"/>
 
                         </div>
+                        @if (Route::has('password.request'))
+                            <a class="btn btn-link" href="{{ route('password.request') }}">
+                                {{ __('Forgot Your Password?') }}
+                            </a>
+                        @endif
                     </form>
                     <div class="social-login">
                         <span class="social-label">Or login with</span>
