@@ -18,12 +18,10 @@ class RoomTypeController extends Controller
     {
         $this->model = new RoomType();
         $this->apiBaseResponse = new ApiBaseResponse();
-
     }
 
     public function index()
     {
-
         try{
             $roomType = $this->model->all();
             return $roomType;
@@ -66,7 +64,7 @@ class RoomTypeController extends Controller
             $data = RoomType::find($id);
             $data->delete();
 
-            $response = $this->apiBaseResponse->singleData(['delete success'], []);
+            $response = $this->apiBaseResponse->successResponse(['delete success'], []);
 
             return response($response);
         }catch (\Exception $e){
