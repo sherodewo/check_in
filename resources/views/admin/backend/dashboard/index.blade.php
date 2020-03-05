@@ -8,7 +8,7 @@
     </div>
     <div class="row">
         <div class="col-md-6 col-xl-4">
-            <div class="card mb-3 widget-content">
+            <div class="card card-dewo mb-3 widget-content">
                 <div class="widget-content-outer">
                     <div class="widget-content-wrapper">
                         <div class="widget-content-left">
@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="col-md-6 col-xl-4">
-            <div class="card mb-3 widget-content">
+            <div class="card card-dewo mb-3 widget-content">
                 <div class="widget-content-outer">
                     <div class="widget-content-wrapper">
                         <div class="widget-content-left">
@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="col-md-6 col-xl-4">
-            <div class="card mb-3 widget-content">
+            <div class="card card-dewo mb-3 widget-content">
                 <div class="widget-content-outer">
                     <div class="widget-content-wrapper">
                         <div class="widget-content-left">
@@ -53,7 +53,7 @@
             </div>
         </div>
         <div class="d-xl-none d-lg-block col-md-6 col-xl-4">
-            <div class="card mb-3 widget-content">
+            <div class="card card-dewo mb-3 widget-content">
                 <div class="widget-content-outer">
                     <div class="widget-content-wrapper">
                         <div class="widget-content-left">

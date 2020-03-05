@@ -35,21 +35,21 @@ class HotelController extends Controller
         try{
             $data = $this->model;
             $data->name = $request->name;
-            $data->name = $request->description;
-            $data->name = $request->room_type_id;
-            $data->name = $request->city_id;
-            $data->name = $request->facility_id;
-            $data->name = $request->hotel_stars;
-            $data->name = $request->number_of_rooms;
-            $data->name = $request->price;
-            $data->name = $request->image;
-            $data->name = $request->hotel_owner_id;
-            $data->name = $request->status;
+            $data->description = $request->description;
+            $data->room_type_id = $request->room_type_id;
+            $data->city_id = $request->city_id;
+            $data->facility_id = $request->facility_id;
+            $data->hotel_stars = $request->hotel_stars;
+            $data->number_of_rooms = $request->number_of_rooms;
+            $data->price = $request->price;
+            $data->image = $request->image;
+            $data->hotel_owner_id = $request->hotel_owner_id;
+            $data->status = $request->status;
             $data->save();
 
-            $response = $this->apiBaseResponse->singleData([$data->name, $data->desctiption, $data->room_type_id,
-                $data->city_id, $data->facility_id, $data->hotels_stars, $data->number_of_rooms, $data->price,
-                $data->image, $data->hotel_owner_id, $data->status], []);
+            $response = $this->apiBaseResponse->singleData(["name" => $data->name,"description" => $data->desctiption,"room_type_id" => $data->room_type_id,
+                "city_id" => $data->city_id,"facility_id" => $data->facility_id,"hotel_stars" => $data->hotel_stars,"number_of_rooms" => $data->number_of_rooms,
+                "price" =>  $data->price,"image" => $data->image,"hotel_owner_id" => $data->hotel_owner_id,"status" => $data->status], []);
 
             return response($response);
         }catch (\Exception $e){
@@ -63,16 +63,16 @@ class HotelController extends Controller
             $model =  new Hotel();
             $data = $model->findOrFail($id);
             $data->name = $request->name;
-            $data->name = $request->description;
-            $data->name = $request->room_type_id;
-            $data->name = $request->city_id;
-            $data->name = $request->facility_id;
-            $data->name = $request->hotel_stars;
-            $data->name = $request->number_of_rooms;
-            $data->name = $request->price;
-            $data->name = $request->image;
-            $data->name = $request->hotel_owner_id;
-            $data->name = $request->status;
+            $data->description = $request->description;
+            $data->room_type_id = $request->room_type_id;
+            $data->city_id = $request->city_id;
+            $data->facility_id = $request->facility_id;
+            $data->hotel_stars = $request->hotel_stars;
+            $data->number_of_rooms = $request->number_of_rooms;
+            $data->price = $request->price;
+            $data->image = $request->image;
+            $data->hotel_owner_id = $request->hotel_owner_id;
+            $data->status = $request->status;
             $data->update();
 
             $response = $this->apiBaseResponse->singleData([$data->name, $data->desctiption, $data->room_type_id,

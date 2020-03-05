@@ -118,7 +118,7 @@ Route::middleware(['auth'])->group(function () {
 });
 
 // FrontEnd
-Route::resource('frontend', 'Frontend\FrontController');
+Route::resource('checkin', 'Frontend\FrontController');
 Route::get('login_user',  'Frontend\FrontController@login');
 Route::get('register_user',  'Frontend\FrontController@register');
 

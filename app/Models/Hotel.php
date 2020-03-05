@@ -10,7 +10,7 @@ class Hotel extends Model
     public $table = 'hotels';
 
     protected $fillable = ['name', 'description', 'room_type_id', 'city_id',
-        'province_id', 'district_id', 'facility_id', 'number_of_rooms', 'price'];
+        'province_id', 'district_id', 'facility_id', 'number_of_rooms', 'price','status'];
 
     public function sql(){
         $owner = new User();
