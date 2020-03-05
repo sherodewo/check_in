@@ -80,7 +80,7 @@
 
 
                 <div class="site-logo">
-                    <a href="index.html" class="text-black"><span class="text-primary">Check In</a>
+                    <a href="index.html" class="text-black"><span class="text-primary"/>Check In</a>
                 </div>
 
                 <div class="col-12">
@@ -814,6 +814,7 @@
                                 <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
                             </div>
                         </div>
+                    </form>
                 </div>
 
 
