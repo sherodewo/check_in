@@ -16,3 +16,15 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+##RoomType
+Route::get('roomtype', 'Api\RoomTypeController@index');
+Route::post('roomtype', 'Api\RoomTypeController@create');
+Route::put('/roomtype/{id}', 'Api\RoomTypeController@update');
+Route::delete('/roomtype/{id}', 'Api\RoomTypeController@delete');
+
+##Hotel
+
+Route::get('hotel', 'Api\HotelController@index');
+Route::post('hotel', 'Api\HotelController@create');
+Route::put('/hotel/{id}', 'Api\HotelController@update');
+Route::delete('/hotel/{id}', 'Api\HotelController@delete');

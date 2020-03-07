@@ -10,10 +10,12 @@ class Hotel extends Model
     public $table = 'hotels';
 
     protected $fillable = ['name', 'description', 'room_type_id', 'city_id',
-        'province_id', 'district_id', 'facility_id', 'number_of_rooms', 'price'];
+        'province_id', 'district_id', 'facility_id', 'number_of_rooms', 'price','status'];
 
     public function sql(){
+        $owner = new User();
         return $this
+            ->leftJoin($owner->table, $owner->table.'.id', '=', $this->table.'.hotel_owner_id')
             ->select(
                 $this->table.'.id',
                 $this->table.'.name',
@@ -24,7 +26,11 @@ class Hotel extends Model
                 $this->table.'.district_id',
                 $this->table.'.facility_id',
                 $this->table.'.number_of_rooms',
-                $this->table.'.price'
+                $this->table.'.price',
+                $this->table.'.image',
+                $this->table.'.hotel_owner_id',
+                $this->table.'.status',
+                $owner->table.'.name AS owner'
             );
     }
 
@@ -42,5 +48,9 @@ class Hotel extends Model
 
     public function district(){
         return $this->hasOne(District::class);
+    }
+
+    public function owner(){
+        return $this->hasOne(User::class);
     }
 }

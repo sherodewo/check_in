@@ -47,7 +47,7 @@ class DistrictController extends Controller
     public function create()
     {
         $provinces = $this->provinceModel->all();
-        $cityModel = $this->cityModel;
+        $cityModel = $this->cityModel->all();
         return view('admin.backend.districts.create', compact('provinces', 'cityModel'));
     }
 

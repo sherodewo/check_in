@@ -17,13 +17,15 @@ class FrontController extends Controller
     {
         $this->provinceClient = $provinceClient;
         $this->cityClient = $cityClient;
+        $this->city = new City();
     }
 
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
     public function index(){
-
+        $cities = $this->city->all();
+        return view('frontend.home.index',compact('cities'));
     }
 
     public function login(){

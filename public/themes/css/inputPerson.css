@@ -11,7 +11,7 @@ input:focus {
 
 form {
     text-align: center;
-    margin: 10%;
+    margin: 1%;
 }
 .quantity input {
     display: inline-block;
@@ -32,7 +32,6 @@ form {
     margin: 0;
     text-align:center;
     background: #fff;
-    border: 1px solid #ccc;
     border-right: none;
 }
 .quantity input:last-child {
