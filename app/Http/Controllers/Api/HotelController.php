@@ -32,7 +32,8 @@ class HotelController extends Controller
 
     public function create(Request $request)
     {
-        try{
+//        try{
+
             $data = $this->model;
             $data->name = $request->name;
             $data->description = $request->description;
@@ -42,7 +43,11 @@ class HotelController extends Controller
             $data->hotel_stars = $request->hotel_stars;
             $data->number_of_rooms = $request->number_of_rooms;
             $data->price = $request->price;
-            $data->image = $request->image;
+            $x = count(array($request->image));
+                for ($i=0; $i<=$x; $i++){
+                    $img[] = $request->image;
+                    $data->image = $img;
+                }
             $data->hotel_owner_id = $request->hotel_owner_id;
             $data->status = $request->status;
             $data->save();
@@ -52,9 +57,9 @@ class HotelController extends Controller
                 "price" =>  $data->price,"image" => $data->image,"hotel_owner_id" => $data->hotel_owner_id,"status" => $data->status], []);
 
             return response($response);
-        }catch (\Exception $e){
-            abort(500);
-        }
+//        }catch (\Exception $e){
+//            abort(500);
+//        }
     }
 
     public function update($id, Request $request)

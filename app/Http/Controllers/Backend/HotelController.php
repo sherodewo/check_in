@@ -3,19 +3,29 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
+use App\Models\City;
+use App\Models\Facility;
 use App\Models\Hotel;
+use App\Models\RoomType;
 use Illuminate\Http\Request;
+use Yajra\DataTables\DataTables;
 
 class HotelController extends Controller
 {
     private $model;
+    private $cities;
+    private $facilities;
+    private $roomtype;
 
     public function __construct()
     {
         $this->model = new Hotel();
+        $this->cities = new City();
+        $this->facilities = new Facility();
+        $this->roomtype = new RoomType();
     }
 
-    public function dataTable()
+    public function dataTables()
     {
         $data = $this->model->all();
         return DataTables::of($data)
@@ -31,36 +41,74 @@ class HotelController extends Controller
 
     public function index()
     {
+        return view('admin.backend.hotels.index');
+    }
 
+    public function show($id)
+    {
+        $data = $this->model->findOrFail($id);
+        return view('admin.backend.hotels.show',compact('data'));
     }
 
     public function create()
     {
-
+        $cities = $this->cities->all();
+        $roomtype = $this->roomtype->all();
+        $facilities = $this->facilities->all();
+        return view('admin.backend.hotels.create', compact('cities','facilities', 'roomtype'));
     }
 
-    public function store(Request $request, $id)
+    public function store(Request $request)
     {
+        $this->validate($request, [
+            'name' => 'required',
+            'image' => 'required',
+            'image.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
 
+        ]);
+
+        if($request->hasfile('image'))
+        {
+
+            $data = $this->model;
+            foreach($request->file('image') as $image)
+            {
+                $name=$image->getClientOriginalName();
+                $image->move(public_path().'/images/', $name);
+                $img[] = $name;
+            }
+
+            $data->image = json_encode($img);
+
+            $data->save();
+
+            return redirect('/hotel')->with('success', 'Hotel has been successfully');
+        }
     }
 
     public function edit($id)
     {
-
+        $data = $this->model->findOrFail($id);
+        return view('admin.backend.hotels.index', compact('data'));
     }
 
     public function update(Request $request, $id)
     {
+        $data = $this->model->findOrFail($id);
 
     }
 
     public function delete($id)
     {
+        $data = $this->model->findOrFail($id);
 
     }
 
     public function destroy($id)
     {
+        $data = $this->model->findOrFail($id);
+        $data->delete();
 
+        return redirect('/hotel')->with('success', 'Province has been Delete');
     }
 }

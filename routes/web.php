@@ -115,6 +115,17 @@ Route::middleware(['auth'])->group(function () {
     Route::put('facility/update/{id}', ['as' => 'facility.update', 'uses' => 'Backend\FacilityController@update']);
     Route::get('facility/delete/{id}', ['as' => 'facility.delete', 'uses' => 'Backend\FacilityController@destroy']);
     Route::resource('facility', 'Backend\FacilityController');
+
+    # HotelController
+    Route::get('hotel', ['as' => 'hotel.index', 'uses' => 'Backend\HotelController@index']);
+    Route::get('hotel/datatables', ['as' => 'hotel.datatables', 'uses' => 'Backend\HotelController@dataTables']);
+    Route::get('hotel/show/{id}', ['as' => 'hotel.show', 'uses' => 'Backend\HotelController@show']);
+    Route::get('hotel/create', ['as' => 'hotel.create', 'uses' => 'Backend\HotelController@create']);
+    Route::post('hotel/create', ['as' => 'hotel.store', 'uses' => 'Backend\HotelController@store']);
+    Route::get('hotel/edit/{id}', ['as' => 'hotel.edit', 'uses' => 'Backend\HotelController@edit']);
+    Route::put('hotel/update/{id}', ['as' => 'hotel.update', 'uses' => 'Backend\HotelController@update']);
+    Route::get('hotel/delete/{id}', ['as' => 'hotel.delete', 'uses' => 'Backend\HotelController@destroy']);
+    Route::resource('hotel', 'Backend\HotelController');
 });
 
 // FrontEnd

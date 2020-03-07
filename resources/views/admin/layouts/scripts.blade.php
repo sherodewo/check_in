@@ -8,7 +8,8 @@
 <script src="{{ asset('themes/fontawesome/js/all.js')}}"></script>
 <script src="{{ asset('themes/fontawesome/js/fontawesome.js')}}"></script>
 <script src="{{ asset('themes/js/custom.js')}}"></script>
-
+<script src="{{ asset('themes/js/drag_and_drop.js')}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
 
 <script>
 </script>
