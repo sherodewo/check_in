@@ -4,7 +4,7 @@
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="float-left">
-            <h2>Add New Hotel</h2>
+            <h2>Add New AWWW</h2>
         </div>
         <div class="float-right">
             <a class="btn btn-primary" href="{{ route('hotel.index') }}"> Back</a>
