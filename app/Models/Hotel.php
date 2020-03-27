@@ -10,7 +10,8 @@ class Hotel extends Model
     public $table = 'hotels';
 
     protected $fillable = ['name', 'description', 'room_type_id', 'city_id',
-        'province_id', 'district_id', 'facility_id', 'number_of_rooms', 'price','status'];
+        'province_id', 'district_id', 'number_of_rooms', 'price','status'
+        ,'postal_code', 'location_detail', 'check_in_time', 'check_out_time', 'phone_number'];
 
     public function sql(){
         $owner = new User();
@@ -22,14 +23,13 @@ class Hotel extends Model
                 $this->table.'.description',
                 $this->table.'.room_type_id',
                 $this->table.'.city_id',
-                $this->table.'.province_id',
-                $this->table.'.district_id',
-                $this->table.'.facility_id',
                 $this->table.'.number_of_rooms',
                 $this->table.'.price',
-                $this->table.'.image',
+                $this->table.'.check_in_time',
+                $this->table.'.check_out_time',
                 $this->table.'.hotel_owner_id',
                 $this->table.'.status',
+                $this->table.'.location_detail',
                 $owner->table.'.name AS owner'
             );
     }
@@ -42,15 +42,11 @@ class Hotel extends Model
         return $this->hasOne(City::class);
     }
 
-    public function province(){
-        return $this->hasOne(Province::class);
-    }
-
-    public function district(){
-        return $this->hasOne(District::class);
-    }
-
     public function owner(){
         return $this->hasOne(User::class);
+    }
+
+    public function image(){
+        return $this->hasMany(HotelImage::class);
     }
 }

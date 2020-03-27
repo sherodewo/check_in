@@ -10,6 +10,7 @@
 <script src="{{ asset('themes/js/custom.js')}}"></script>
 <script src="{{ asset('themes/js/drag_and_drop.js')}}"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 
 <script>
 </script>

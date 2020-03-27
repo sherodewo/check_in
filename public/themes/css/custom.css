@@ -33,3 +33,61 @@
     text-overflow: inherit;
     white-space: normal;
 }
+
+.display-item{
+    padding:15px;
+}
+.switch {
+    display: flex;
+    color: teal;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.switch input {
+    width: 2rem;
+    height: 2rem;
+    display: none;
+}
+.switch .switch-text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: .5em;
+    content: "InActive: ";
+}
+.switch input:checked + span:before {
+    background-color: rgba(0, 128, 128, 0.6);
+}
+.switch input:checked + span:after {
+    background-color: teal;
+    left: 1.5em;
+    /*content: "Active: ";*/
+}
+.switch .switch-field {
+    width: 3em;
+    height: 1.5em;
+    position: relative;
+}
+.switch .switch-field:before, .switch .switch-field:after {
+    content: '';
+    position: absolute;
+    transition: all .2s linear;
+}
+.switch .switch-field:before {
+    height: 1em;
+    border-radius: .5em;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    left: 5%;
+    top: .25em;
+}
+.switch .switch-field:after {
+    width: 1.5em;
+    height: 1.5em;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+}
